@@ -65,6 +65,4 @@ curl http://localhost:8001/tools
 
 Operational. The interactive mode runs through Claude Desktop, and the automated workflow runs on an hourly schedule. Roadmap items, including a database backed memory store and automated rollback, are listed in ARCHITECTURE.md.
 
-## License
 
-See [LICENSE](LICENSE).
