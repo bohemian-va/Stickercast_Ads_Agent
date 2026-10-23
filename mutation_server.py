@@ -26,7 +26,7 @@ from google.ads.googleads.errors import GoogleAdsException
 # ---------------------------------------------------------------------------
 
 GOOGLE_ADS_YAML = os.environ.get("GOOGLE_ADS_YAML", "google-ads.yaml")
-MUTATION_API_KEY = os.environ.get("MUTATION_API_KEY", "dev-key-change-me")
+MUTATION_API_KEY = os.environ["MUTATION_API_KEY"]
 
 app = FastAPI(
     title="Stickercast Google Ads Mutation Server",
